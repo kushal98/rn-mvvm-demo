@@ -1,6 +1,7 @@
-# mvvm-demo
+# React native app using MVVM
 A Todo App to demonstrate the usage of MVVM architecture in a react native application.
-Medium Article - 
+
+### Medium Article - https://medium.com/p/ad77fa0f851b/edit
 
 ## Key Features 
 ```
