@@ -55,3 +55,8 @@ A Todo App to demonstrate the usage of MVVM architecture in a react native appli
 └── yarn.lock
 
 ```
+
+## References
+- https://www.detroitlabs.com/intro-to-mvvm-in-react-with-mobx/
+- https://paulallies.medium.com/clean-mvvm-with-react-and-react-hooks-ebc37b22542f
+- https://medium.cobeisfresh.com/level-up-your-react-architecture-with-mvvm-a471979e3f21
