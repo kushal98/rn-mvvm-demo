@@ -40,8 +40,7 @@ const useTodoViewModel = () => {
     updateTodoSuccess,
     updateTodoError,
 
-    deleteTodo: (payload: {id: string; title: string}) =>
-      dispatch(deleteTodo(payload)),
+    deleteTodo: (id: string) => dispatch(deleteTodo({id})),
     deletingTodo,
     deleteTodoSuccess,
     deleteTodoError,

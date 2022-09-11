@@ -27,11 +27,7 @@ const useUpdateTodoController = (todo: TodoItemType) => {
   };
 
   const onClickDelete = () => {
-    let payload = {
-      id: todo.id,
-      title: todoText,
-    };
-    deleteTodo(payload);
+    deleteTodo(todo.id);
     navigation.goBack();
   };
 

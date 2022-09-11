@@ -23,7 +23,7 @@ export const todoSlice = createSlice({
       });
       state.todos.concat([action.payload]);
     },
-    deleteTodo: (state, action) => {
+    deleteTodo: (state, action: {payload: {id: string}; type: string}) => {
       state.todos = state.todos.filter(
         (todoItem: TodoItemType) => todoItem.id !== action.payload.id,
       );
